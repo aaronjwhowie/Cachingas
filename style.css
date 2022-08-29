@@ -1,0 +1,240 @@
+/* General Styling  */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Cinzel", serif;
+}
+
+html {
+  height: 100%;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #ffffffa3;
+  padding: 20px;
+  border-style: solid;
+  border-color: #aeb3ad;
+  width: 250px;
+  margin: 20px;
+}
+
+div {
+  display: block;
+}
+
+button {
+  background: #0000004f;
+  border: 2px solid black;
+  color: black;
+  border-radius: 5px;
+  width: 145px;
+  margin-top: 30px;
+  height: 71px;
+  font-size: 19px;
+  margin-bottom: 50px;
+  cursor: pointer;
+}
+
+.content {
+  color: white;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin-top: 350px;
+}
+
+.shade {
+  background: rgba(0, 0, 0, 0.5);
+}
+
+button:hover {
+  background-color: #ffffff6e;
+}
+/* Home Page Style */
+h1 {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  font-size: 60px;
+}
+
+.button {
+  background: #0000004f;
+  border: 2px solid white;
+  color: white;
+  border-radius: 5px;
+  margin-left: 689px;
+  text-decoration: none;
+  list-style: none;
+}
+
+.button,
+a {
+  text-decoration: none;
+  list-style: none;
+  color: white;
+}
+.p-size {
+  font-size: 30px;
+}
+/* Navigation Bar/ Header Styling */
+#ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: right;
+  align-items: stretch;
+  align-content: stretch;
+  padding: 10px;
+}
+
+.header-color {
+  color: white;
+}
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: right;
+  align-items: stretch;
+  align-content: stretch;
+  padding: 10px;
+}
+
+li {
+  text-decoration: none;
+  list-style: none;
+  padding: 10px;
+}
+
+#ul li a {
+  text-decoration: none;
+  list-style: none;
+  color: white;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #6f5d5d78;
+  border: 5px solid #00000024;
+  align-items: center;
+}
+
+/* Hero Image/ Body Styling */
+
+.hero-image {
+  background-image: url("images/Cachingas Hero Image.jpg");
+  background-repeat: no-repeat;
+  background-size: 150%;
+  height: 50vh;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  background-color: #1e2b1c;
+}
+
+.fi {
+  height: 50px;
+  width: 50px;
+}
+
+.lo {
+  height: 50px;
+  width: 50px;
+}
+
+/* Contact Style*/
+
+.column {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.formal {
+  background-color: white;
+  margin: 50px;
+  padding: 100px;
+  border-radius: 9px;
+}
+
+.move-l {
+  margin-left: 360px;
+  width: 50vw;
+  background-color: #ffffffe3;
+}
+
+textarea {
+  height: 130px;
+}
+
+.contact-button {
+  margin-left: 297px;
+}
+/* Menu Style*/
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 5px;
+  flex-wrap: wrap;
+  width: 14vw;
+  height: 25vh;
+  margin: 20px;
+  border: 8px double black;
+  position: relative;
+  right: 24px;
+}
+
+.menu-pos {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin: 20px;
+}
+
+.fries-b {
+  margin-top: 205px;
+  margin-left: 28px;
+}
+
+.chicken-b {
+  margin-top: 64px;
+  margin-left: 28px;
+}
+
+.waffle-b {
+  margin-top: 41px;
+  margin-left: 28px;
+}
+
+.nugget-b {
+  margin-top: 139px;
+  margin-left: 28px;
+}
+
+li {
+  font-size: 20px;
+}
+/* Footer Styling*/
+footer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  object-position: bottom;
+  margin-top: 300px;
+  background-color: #6f5d5d78;
+  border: 5px solid #00000024;
+  padding: 10px;
+}
