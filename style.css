@@ -129,7 +129,7 @@ header {
 /* Hero Image/ Body Styling */
 
 .hero-image {
-  background-image: url("images/Cachingas Hero Image.jpg");
+  background-image: url("images/Cachingas-Hero-Image.webp");
   background-repeat: no-repeat;
   background-size: 150%;
   height: 50vh;
@@ -142,8 +142,8 @@ body {
 }
 
 .fi {
-  height: 100px;
-  width: 100px;
+  height: 45px;
+  width: 45px;
 }
 
 .lo {
