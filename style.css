@@ -53,6 +53,21 @@ button {
 button:hover {
   background-color: #ffffff6e;
 }
+
+.h-button {
+  border: 2px solid rgb(255, 255, 255);
+  color: white;
+  border-radius: 5px;
+  width: 145px;
+  margin-top: 900px;
+  margin-left: 920px;
+  height: 71px;
+  font-size: 19px;
+  margin-bottom: 50px;
+  cursor: pointer;
+  background-color: #6f5d5d78;
+}
+
 /* Home Page Style */
 h1 {
   text-align: center;
@@ -187,8 +202,8 @@ textarea {
   justify-content: center;
   border-radius: 5px;
   flex-wrap: wrap;
-  width: 14vw;
-  height: 25vh;
+  width: 270px;
+  height: 250px;
   margin: 20px;
   border: 8px double black;
   position: relative;

@@ -1,82 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <link href="style.css" rel="stylesheet" type="text/css" />
-</head>
-
-<body class="hero-image">
-  <!--   Nav Bar HTML -->
-  <header>
-    <section>
+  <body class="hero-image">
+    <!--   Nav Bar HTML -->
+    <header>
+      <div>
+        <a href="index.html">
+          <img src="images/chunk.svg" class="fi" alt="Coin icon" />
+        </a>
+      </div>
       <nav>
-        <a href="index.html"> <img src="images/chunk.svg" class="fi" alt="Coin icon"> </a>
-    </section>
-    <section>
-      <ul id="ul">
-        <li><a href="index.html" class="nav a"> Home </a></li>
+        <div>
+          <ul id="ul">
+            <li><a href="index.html" class="nav a"> Home </a></li>
 
-        <li><a href="menu.html"> Menu </a></li>
+            <li><a href="menu.html"> Menu </a></li>
 
-        <li><a href="contact.html"> Contact Us </a></li>
+            <li><a href="contact.html"> Contact Us </a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
 
-      </ul>
-    </section>
-    </nav>
-  </header>
+    <!--   Content HTML -->
+    <h1 class="header-color">Contact Us</h1>
 
-  <!--   Content HTML -->
-  <h1 class="header-color"> Contact Us </h1>
+    <div class="container move-l">
+      <form class="column">
+        <label class="column" for="fname"> First Name </label>
+        <input
+          type="text"
+          id="fname"
+          name="firstname"
+          placeholder="First name"
+        />
 
-  <div class="container move-l">
-    <form class="column">
-      <label class="column" for="fname"> First Name </label>
-      <input type="text" id="fname" name="firstname" placeholder="First name">
+        <label for="lname"> Last Name </label>
+        <input type="text" id="lname" name="lastname" placeholder="Last name" />
 
-      <label for="lname"> Last Name </label>
-      <input type="text" id="lname" name="lastname" placeholder="Last name">
+        <label for="email"> Email </label>
+        <input type="text" id="email" name="email" placeholder="Email" />
 
-      <label for="email"> Email </label>
-      <input type="text" id="email" name="email" placeholder="Email">
+        <label for="phonenum"> Phone Number </label>
+        <input
+          type="text"
+          id="phonenum"
+          name="phone-number"
+          placeholder="000-000-0000"
+        />
 
-      <label for="phonenum"> Phone Number </label>
-      <input type="text" id="phonenum" name="phone-number" placeholder="000-000-0000">
+        <label for="Feedback"> Feedback </label>
 
-      <label for="Feedback"> Feedback </label>
+        <textarea id="Feedback" name="Feedback"> </textarea>
+      </form>
+      <button class="contact-button">Send</button>
+    </div>
 
-      <textarea id="Feedback" name="Feedback"> 
-  </textarea>
+    <!--   Footer HTML -->
+    <footer>
+      <a href="https://www.twitter.com/" target="_blank">
+        <img src="images/twitter_icon.png" class="fi" alt="Twitter_Icon" />
+      </a>
 
-    </form>
-    <button class="contact-button"> Send </button>
-  </div>
+      <a href="https://www.instagram.com/" target="_blank">
+        <img src="images/insta_icon.svg" class="fi" alt="Instagram_Icon" />
+      </a>
 
-  <!--   Footer HTML -->
-  <footer>
-    <a href="https://www.twitter.com/" target="_blank">
-      <img src="images/twitter_icon.png" class="fi" alt="Twitter_Icon" />
-    </a>
+      <a href="https://www.tiktok.com/" target="_blank">
+        <img src="images/tiktok_icon.svg" class="fi" alt="Tiktok_Icon" />
+      </a>
 
-    <a href="https://www.instagram.com/" target="_blank">
-      <img src="images/insta_icon.svg" class="fi" alt="Instagram_Icon" />
-    </a>
+      <a href="https://www.youtube.com/" target="_blank">
+        <img src="images/youtube_icon.svg" class="fi" alt="Youtube_Icon" />
+      </a>
 
-    <a href="https://www.tiktok.com/" target="_blank">
-      <img src="images/tiktok_icon.svg" class="fi" alt="Tiktok_Icon" />
-    </a>
-
-    <a href="https://www.youtube.com/" target="_blank">
-      <img src="images/youtube_icon.svg" class="fi" alt="Youtube_Icon" />
-    </a>
-
-    <a href="https://www.facebook.com/" target="_blank">
-      <img src="images/facebook_icon.png" class="fi" alt="Facebook_Icon" />
-    </a>
-  </footer>
-</body>
-
+      <a href="https://www.facebook.com/" target="_blank">
+        <img src="images/facebook_icon.png" class="fi" alt="Facebook_Icon" />
+      </a>
+    </footer>
+  </body>
 </html>
